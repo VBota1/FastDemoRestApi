@@ -1,2 +1,2 @@
 # FastDemoRestApi
-FFast Demo Rest API
+Fast Demo Rest API
