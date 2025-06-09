@@ -7,6 +7,7 @@ def test_read_root():
     response = client.get("/")
     assert response.status_code == 200
     assert response.json() == {"Hello": "World"}
+    assert Fasle
 
 def test_read_item():
     response = client.get("/items/42?q=testquery")
